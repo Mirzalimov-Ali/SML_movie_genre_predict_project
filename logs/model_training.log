@@ -1,0 +1,224 @@
+2025-10-25 15:10:09,450 - INFO - use_trainer - Dataset loaded. Shape: (3561, 514). Classes distribution: Counter({3: 1322, 2: 1000, 0: 772, 1: 467})
+2025-10-25 15:10:09,451 - INFO - training - Trainer initialized for model: LogisticRegression, dataset shape: (3561, 513)
+2025-10-25 15:10:09,456 - INFO - training - Dataset split into train/test
+2025-10-25 15:10:10,763 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:10:13,048 - INFO - training - Model LogisticRegression trained
+2025-10-25 15:10:13,048 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 15:10:13,053 - INFO - training - Prediction done. Accuracy=0.711
+2025-10-25 15:10:23,067 - INFO - training - Trainer initialized for model: RandomForestClassifier, dataset shape: (3561, 513)
+2025-10-25 15:10:23,074 - INFO - training - Dataset split into train/test
+2025-10-25 15:10:23,149 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:10:25,144 - INFO - training - Model RandomForestClassifier trained
+2025-10-25 15:10:25,156 - ERROR - training - Error during training: name 'np' is not defined
+2025-10-25 15:10:25,156 - ERROR - training - Error during evaluation: 'Trainer' object has no attribute 'selected_features'
+2025-10-25 15:12:32,403 - INFO - use_trainer - Dataset loaded. Shape: (3561, 514). Classes distribution: Counter({3: 1322, 2: 1000, 0: 772, 1: 467})
+2025-10-25 15:12:32,403 - INFO - training - Trainer initialized for model: LogisticRegression, dataset shape: (3561, 513)
+2025-10-25 15:12:32,408 - INFO - training - Dataset split into train/test
+2025-10-25 15:12:33,711 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:12:36,008 - INFO - training - Model LogisticRegression trained
+2025-10-25 15:12:36,009 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 15:12:36,013 - INFO - training - Prediction done. Accuracy=0.711
+2025-10-25 15:12:45,889 - INFO - training - Trainer initialized for model: RandomForestClassifier, dataset shape: (3561, 513)
+2025-10-25 15:12:45,897 - INFO - training - Dataset split into train/test
+2025-10-25 15:12:45,972 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:12:47,946 - INFO - training - Model RandomForestClassifier trained
+2025-10-25 15:12:49,662 - INFO - training - Embedded feature selection applied. 105 features selected.
+2025-10-25 15:12:49,680 - INFO - training - Prediction done. Accuracy=0.742
+2025-10-25 15:12:56,674 - INFO - training - Trainer initialized for model: ExtraTreesClassifier, dataset shape: (3561, 513)
+2025-10-25 15:12:56,681 - INFO - training - Dataset split into train/test
+2025-10-25 15:12:56,788 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:12:58,691 - INFO - training - Model ExtraTreesClassifier trained
+2025-10-25 15:12:59,686 - INFO - training - Embedded feature selection applied. 140 features selected.
+2025-10-25 15:12:59,708 - INFO - training - Prediction done. Accuracy=0.766
+2025-10-25 15:13:03,721 - INFO - training - Trainer initialized for model: GradientBoostingClassifier, dataset shape: (3561, 513)
+2025-10-25 15:13:03,729 - INFO - training - Dataset split into train/test
+2025-10-25 15:13:03,804 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:13:19,124 - INFO - training - Model GradientBoostingClassifier trained
+2025-10-25 15:13:25,631 - INFO - training - Embedded feature selection applied. 92 features selected.
+2025-10-25 15:13:25,634 - INFO - training - Prediction done. Accuracy=0.801
+2025-10-25 15:13:51,697 - INFO - training - Trainer initialized for model: HistGradientBoostingClassifier, dataset shape: (3561, 513)
+2025-10-25 15:13:51,701 - INFO - training - Dataset split into train/test
+2025-10-25 15:13:51,771 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:13:54,038 - INFO - training - Model HistGradientBoostingClassifier trained
+2025-10-25 15:13:54,038 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 15:13:54,050 - INFO - training - Prediction done. Accuracy=0.843
+2025-10-25 15:14:04,227 - INFO - training - Trainer initialized for model: AdaBoostClassifier, dataset shape: (3561, 513)
+2025-10-25 15:14:04,235 - INFO - training - Dataset split into train/test
+2025-10-25 15:14:04,308 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:14:05,319 - INFO - training - Model AdaBoostClassifier trained
+2025-10-25 15:14:05,477 - INFO - training - Embedded feature selection applied. 27 features selected.
+2025-10-25 15:14:05,481 - INFO - training - Prediction done. Accuracy=0.589
+2025-10-25 15:14:06,129 - INFO - training - Trainer initialized for model: XGBClassifier, dataset shape: (3561, 513)
+2025-10-25 15:14:06,134 - INFO - training - Dataset split into train/test
+2025-10-25 15:14:06,206 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:14:07,762 - INFO - training - Model XGBClassifier trained
+2025-10-25 15:14:08,203 - INFO - training - Embedded feature selection applied. 147 features selected.
+2025-10-25 15:14:08,209 - INFO - training - Prediction done. Accuracy=0.809
+2025-10-25 15:14:10,220 - INFO - training - Trainer initialized for model: LGBMClassifier, dataset shape: (3561, 513)
+2025-10-25 15:14:10,226 - INFO - training - Dataset split into train/test
+2025-10-25 15:14:10,296 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:14:11,115 - INFO - training - Model LGBMClassifier trained
+2025-10-25 15:14:11,558 - INFO - training - Embedded feature selection applied. 128 features selected.
+2025-10-25 15:14:11,562 - INFO - training - Prediction done. Accuracy=0.802
+2025-10-25 15:14:13,704 - INFO - training - Trainer initialized for model: CatBoostClassifier, dataset shape: (3561, 513)
+2025-10-25 15:14:13,713 - INFO - training - Dataset split into train/test
+2025-10-25 15:14:13,783 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:14:18,572 - INFO - training - Model CatBoostClassifier trained
+2025-10-25 15:14:20,176 - INFO - training - Embedded feature selection applied. 83 features selected.
+2025-10-25 15:14:20,178 - INFO - training - Prediction done. Accuracy=0.795
+2025-10-25 15:14:27,546 - INFO - training - Trainer initialized for model: KNeighborsClassifier, dataset shape: (3561, 513)
+2025-10-25 15:14:27,551 - INFO - training - Dataset split into train/test
+2025-10-25 15:14:27,656 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:14:27,685 - INFO - training - Model KNeighborsClassifier trained
+2025-10-25 15:14:27,685 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 15:14:27,940 - INFO - training - Prediction done. Accuracy=0.304
+2025-10-25 15:14:29,534 - INFO - training - Trainer initialized for model: BaggingClassifier, dataset shape: (3561, 513)
+2025-10-25 15:14:29,545 - INFO - training - Dataset split into train/test
+2025-10-25 15:14:29,620 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:14:30,996 - INFO - training - Model BaggingClassifier trained
+2025-10-25 15:14:30,996 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 15:14:31,002 - INFO - training - Prediction done. Accuracy=0.665
+2025-10-25 15:14:36,116 - INFO - use_trainer - Comparison table saved at results/all_model_compare.txt
+2025-10-25 15:14:36,150 - INFO - use_trainer - Best model 'HistGradientBoostingClassifier' saved at 'model/best/HistGradientBoostingClassifier.joblib' with Accuracy=0.8429
+2025-10-25 15:19:44,909 - INFO - use_trainer - Dataset loaded. Shape: (3561, 514). Classes distribution: Counter({3: 1322, 2: 1000, 0: 772, 1: 467})
+2025-10-25 15:19:44,909 - INFO - training - Trainer initialized for model: LogisticRegression, dataset shape: (3561, 513)
+2025-10-25 15:19:44,914 - INFO - training - Dataset split into train/test
+2025-10-25 15:19:46,210 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:19:48,487 - INFO - training - Model LogisticRegression trained
+2025-10-25 15:19:48,487 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 15:19:48,492 - INFO - training - Prediction done. Accuracy=0.711
+2025-10-25 15:19:58,404 - INFO - training - Trainer initialized for model: RandomForestClassifier, dataset shape: (3561, 513)
+2025-10-25 15:19:58,411 - INFO - training - Dataset split into train/test
+2025-10-25 15:19:58,484 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:20:00,417 - INFO - training - Model RandomForestClassifier trained
+2025-10-25 15:20:02,123 - INFO - training - Embedded feature selection applied. 105 features selected.
+2025-10-25 15:20:02,142 - INFO - training - Prediction done. Accuracy=0.742
+2025-10-25 15:20:08,855 - INFO - training - Trainer initialized for model: ExtraTreesClassifier, dataset shape: (3561, 513)
+2025-10-25 15:20:08,861 - INFO - training - Dataset split into train/test
+2025-10-25 15:20:08,968 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:20:10,728 - INFO - training - Model ExtraTreesClassifier trained
+2025-10-25 15:20:11,690 - INFO - training - Embedded feature selection applied. 140 features selected.
+2025-10-25 15:20:11,714 - INFO - training - Prediction done. Accuracy=0.766
+2025-10-25 15:20:15,697 - INFO - training - Trainer initialized for model: GradientBoostingClassifier, dataset shape: (3561, 513)
+2025-10-25 15:20:15,704 - INFO - training - Dataset split into train/test
+2025-10-25 15:20:15,785 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:20:31,105 - INFO - training - Model GradientBoostingClassifier trained
+2025-10-25 15:20:37,587 - INFO - training - Embedded feature selection applied. 92 features selected.
+2025-10-25 15:20:37,591 - INFO - training - Prediction done. Accuracy=0.801
+2025-10-25 15:21:03,505 - INFO - training - Trainer initialized for model: HistGradientBoostingClassifier, dataset shape: (3561, 513)
+2025-10-25 15:21:03,510 - INFO - training - Dataset split into train/test
+2025-10-25 15:21:03,577 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:21:05,794 - INFO - training - Model HistGradientBoostingClassifier trained
+2025-10-25 15:21:05,794 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 15:21:05,807 - INFO - training - Prediction done. Accuracy=0.843
+2025-10-25 15:21:16,042 - INFO - training - Trainer initialized for model: AdaBoostClassifier, dataset shape: (3561, 513)
+2025-10-25 15:21:16,054 - INFO - training - Dataset split into train/test
+2025-10-25 15:21:16,127 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:21:17,136 - INFO - training - Model AdaBoostClassifier trained
+2025-10-25 15:21:17,291 - INFO - training - Embedded feature selection applied. 27 features selected.
+2025-10-25 15:21:17,296 - INFO - training - Prediction done. Accuracy=0.589
+2025-10-25 15:21:17,942 - INFO - training - Trainer initialized for model: XGBClassifier, dataset shape: (3561, 513)
+2025-10-25 15:21:17,947 - INFO - training - Dataset split into train/test
+2025-10-25 15:21:18,012 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:21:19,528 - INFO - training - Model XGBClassifier trained
+2025-10-25 15:21:19,983 - INFO - training - Embedded feature selection applied. 147 features selected.
+2025-10-25 15:21:19,989 - INFO - training - Prediction done. Accuracy=0.809
+2025-10-25 15:21:21,997 - INFO - training - Trainer initialized for model: LGBMClassifier, dataset shape: (3561, 513)
+2025-10-25 15:21:22,007 - INFO - training - Dataset split into train/test
+2025-10-25 15:21:22,077 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:21:22,881 - INFO - training - Model LGBMClassifier trained
+2025-10-25 15:21:23,312 - INFO - training - Embedded feature selection applied. 128 features selected.
+2025-10-25 15:21:23,315 - INFO - training - Prediction done. Accuracy=0.802
+2025-10-25 15:21:25,456 - INFO - training - Trainer initialized for model: CatBoostClassifier, dataset shape: (3561, 513)
+2025-10-25 15:21:25,461 - INFO - training - Dataset split into train/test
+2025-10-25 15:21:25,528 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:21:30,327 - INFO - training - Model CatBoostClassifier trained
+2025-10-25 15:21:31,977 - INFO - training - Embedded feature selection applied. 83 features selected.
+2025-10-25 15:21:31,980 - INFO - training - Prediction done. Accuracy=0.795
+2025-10-25 15:21:39,397 - INFO - training - Trainer initialized for model: KNeighborsClassifier, dataset shape: (3561, 513)
+2025-10-25 15:21:39,401 - INFO - training - Dataset split into train/test
+2025-10-25 15:21:39,511 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:21:39,541 - INFO - training - Model KNeighborsClassifier trained
+2025-10-25 15:21:39,541 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 15:21:39,796 - INFO - training - Prediction done. Accuracy=0.304
+2025-10-25 15:21:41,386 - INFO - training - Trainer initialized for model: BaggingClassifier, dataset shape: (3561, 513)
+2025-10-25 15:21:41,397 - INFO - training - Dataset split into train/test
+2025-10-25 15:21:41,471 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 15:21:42,868 - INFO - training - Model BaggingClassifier trained
+2025-10-25 15:21:42,869 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 15:21:42,875 - INFO - training - Prediction done. Accuracy=0.665
+2025-10-25 15:21:47,999 - INFO - use_trainer - Comparison table saved at results/all_model_compare.txt
+2025-10-25 15:21:48,033 - INFO - use_trainer - Best model 'HistGradientBoostingClassifier' saved at 'model/best/HistGradientBoostingClassifier.joblib' with Accuracy=0.8429
+2025-10-25 16:04:24,582 - INFO - use_trainer - Dataset loaded. Shape: (3561, 514). Classes distribution: Counter({3: 1322, 2: 1000, 0: 772, 1: 467})
+2025-10-25 16:04:24,583 - INFO - training - Trainer initialized for model: LogisticRegression, dataset shape: (3561, 513)
+2025-10-25 16:04:24,588 - INFO - training - Dataset split into train/test
+2025-10-25 16:04:25,875 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:04:36,379 - INFO - use_trainer - Dataset loaded. Shape: (3561, 514). Classes distribution: Counter({3: 1322, 2: 1000, 0: 772, 1: 467})
+2025-10-25 16:04:36,380 - INFO - training - Trainer initialized for model: LogisticRegression, dataset shape: (3561, 513)
+2025-10-25 16:04:36,385 - INFO - training - Dataset split into train/test
+2025-10-25 16:04:37,675 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:04:39,667 - INFO - training - Model LogisticRegression trained
+2025-10-25 16:04:39,667 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 16:04:39,672 - INFO - training - Prediction done. Accuracy=0.711
+2025-10-25 16:04:48,903 - INFO - training - Trainer initialized for model: RandomForestClassifier, dataset shape: (3561, 513)
+2025-10-25 16:04:48,911 - INFO - training - Dataset split into train/test
+2025-10-25 16:04:48,985 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:04:50,902 - INFO - training - Model RandomForestClassifier trained
+2025-10-25 16:04:52,607 - INFO - training - Embedded feature selection applied. 105 features selected.
+2025-10-25 16:04:52,624 - INFO - training - Prediction done. Accuracy=0.742
+2025-10-25 16:04:59,374 - INFO - training - Trainer initialized for model: ExtraTreesClassifier, dataset shape: (3561, 513)
+2025-10-25 16:04:59,380 - INFO - training - Dataset split into train/test
+2025-10-25 16:04:59,487 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:05:01,250 - INFO - training - Model ExtraTreesClassifier trained
+2025-10-25 16:05:02,212 - INFO - training - Embedded feature selection applied. 140 features selected.
+2025-10-25 16:05:02,235 - INFO - training - Prediction done. Accuracy=0.766
+2025-10-25 16:05:06,242 - INFO - training - Trainer initialized for model: GradientBoostingClassifier, dataset shape: (3561, 513)
+2025-10-25 16:05:06,249 - INFO - training - Dataset split into train/test
+2025-10-25 16:05:06,332 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:05:22,163 - INFO - training - Model GradientBoostingClassifier trained
+2025-10-25 16:05:28,967 - INFO - training - Embedded feature selection applied. 92 features selected.
+2025-10-25 16:05:28,970 - INFO - training - Prediction done. Accuracy=0.801
+2025-10-25 16:06:04,299 - INFO - training - Trainer initialized for model: HistGradientBoostingClassifier, dataset shape: (3561, 513)
+2025-10-25 16:06:04,309 - INFO - training - Dataset split into train/test
+2025-10-25 16:06:04,421 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:06:10,807 - INFO - training - Model HistGradientBoostingClassifier trained
+2025-10-25 16:06:10,807 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 16:06:10,843 - INFO - training - Prediction done. Accuracy=0.843
+2025-10-25 16:06:41,284 - INFO - training - Trainer initialized for model: AdaBoostClassifier, dataset shape: (3561, 513)
+2025-10-25 16:06:41,297 - INFO - training - Dataset split into train/test
+2025-10-25 16:06:41,422 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:06:43,023 - INFO - training - Model AdaBoostClassifier trained
+2025-10-25 16:06:43,259 - INFO - training - Embedded feature selection applied. 27 features selected.
+2025-10-25 16:06:43,268 - INFO - training - Prediction done. Accuracy=0.589
+2025-10-25 16:06:44,302 - INFO - training - Trainer initialized for model: XGBClassifier, dataset shape: (3561, 513)
+2025-10-25 16:06:44,313 - INFO - training - Dataset split into train/test
+2025-10-25 16:06:44,428 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:06:46,957 - INFO - training - Model XGBClassifier trained
+2025-10-25 16:06:47,826 - INFO - training - Embedded feature selection applied. 147 features selected.
+2025-10-25 16:06:47,835 - INFO - training - Prediction done. Accuracy=0.809
+2025-10-25 16:06:51,759 - INFO - training - Trainer initialized for model: LGBMClassifier, dataset shape: (3561, 513)
+2025-10-25 16:06:51,770 - INFO - training - Dataset split into train/test
+2025-10-25 16:06:51,886 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:06:54,016 - INFO - training - Model LGBMClassifier trained
+2025-10-25 16:06:55,749 - INFO - training - Embedded feature selection applied. 128 features selected.
+2025-10-25 16:06:55,755 - INFO - training - Prediction done. Accuracy=0.802
+2025-10-25 16:07:04,539 - INFO - training - Trainer initialized for model: CatBoostClassifier, dataset shape: (3561, 513)
+2025-10-25 16:07:04,549 - INFO - training - Dataset split into train/test
+2025-10-25 16:07:04,661 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:07:16,070 - INFO - training - Model CatBoostClassifier trained
+2025-10-25 16:07:19,503 - INFO - training - Embedded feature selection applied. 83 features selected.
+2025-10-25 16:07:19,508 - INFO - training - Prediction done. Accuracy=0.795
+2025-10-25 16:07:35,306 - INFO - training - Trainer initialized for model: KNeighborsClassifier, dataset shape: (3561, 513)
+2025-10-25 16:07:35,316 - INFO - training - Dataset split into train/test
+2025-10-25 16:07:35,487 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:07:35,525 - INFO - training - Model KNeighborsClassifier trained
+2025-10-25 16:07:35,525 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 16:07:35,890 - INFO - training - Prediction done. Accuracy=0.304
+2025-10-25 16:07:38,273 - INFO - training - Trainer initialized for model: BaggingClassifier, dataset shape: (3561, 513)
+2025-10-25 16:07:38,291 - INFO - training - Dataset split into train/test
+2025-10-25 16:07:38,415 - INFO - training - Applied SMOTE. Train class distribution: Counter({1: 1072, 2: 1072, 3: 1072, 0: 1072})
+2025-10-25 16:07:40,448 - INFO - training - Model BaggingClassifier trained
+2025-10-25 16:07:40,448 - INFO - training - Feature selection skipped (model does not support feature_importances_)
+2025-10-25 16:07:40,459 - INFO - training - Prediction done. Accuracy=0.665
+2025-10-25 16:07:48,388 - INFO - use_trainer - Comparison table saved at results/all_model_compare.txt
+2025-10-25 16:07:48,461 - INFO - use_trainer - Best model 'HistGradientBoostingClassifier' saved at 'model/best/HistGradientBoostingClassifier.joblib' with Accuracy=0.8429

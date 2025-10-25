@@ -1,0 +1,88 @@
+2025-10-24 22:34:44,152 - ERROR - use_data_extraction - Horror movies scraping failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-10-24 22:34:44,152 - ERROR - use_data_extraction - Action movies scraping failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-10-24 22:34:44,152 - ERROR - use_data_extraction - Family movies scraping failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-10-24 22:34:44,153 - ERROR - use_data_extraction - Sport movies scraping failed: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-10-24 22:37:18,081 - INFO - data_extraction - Loading page 1: https://www.imdb.com/list/ls021161997/
+2025-10-24 22:37:36,333 - INFO - data_extraction - Page 1: 250 movies scraped
+2025-10-24 22:37:36,334 - INFO - data_extraction - Loading page 2: https://www.imdb.com/list/ls021161997/?page=2
+2025-10-24 22:37:54,838 - INFO - data_extraction - Page 2: 250 movies scraped
+2025-10-24 22:37:54,838 - INFO - data_extraction - Loading page 3: https://www.imdb.com/list/ls021161997/?page=3
+2025-10-24 22:38:13,652 - INFO - data_extraction - Page 3: 250 movies scraped
+2025-10-24 22:38:13,652 - INFO - data_extraction - Loading page 4: https://www.imdb.com/list/ls021161997/?page=4
+2025-10-24 22:38:31,729 - INFO - data_extraction - Page 4: 250 movies scraped
+2025-10-24 22:38:33,882 - INFO - data_extraction - Saved 1000 movies to data/raw/Horror_movies.csv
+2025-10-24 22:38:33,882 - INFO - use_data_extraction - Horror movies successfully scraped!
+2025-10-24 22:38:34,857 - INFO - data_extraction - Loading page 1: https://www.imdb.com/list/ls070233852/
+2025-10-24 22:38:57,763 - INFO - data_extraction - Page 1: 250 movies scraped
+2025-10-24 22:38:57,763 - INFO - data_extraction - Loading page 2: https://www.imdb.com/list/ls070233852/?page=2
+2025-10-24 22:39:15,679 - INFO - data_extraction - Page 2: 250 movies scraped
+2025-10-24 22:39:15,679 - INFO - data_extraction - Loading page 3: https://www.imdb.com/list/ls070233852/?page=3
+2025-10-24 22:39:34,489 - INFO - data_extraction - Page 3: 250 movies scraped
+2025-10-24 22:39:34,489 - INFO - data_extraction - Loading page 4: https://www.imdb.com/list/ls070233852/?page=4
+2025-10-24 22:39:40,815 - INFO - data_extraction - Page 4: 23 movies scraped
+2025-10-24 22:39:42,924 - INFO - data_extraction - Saved 773 movies to data/raw/Action_movies.csv
+2025-10-24 22:39:42,925 - INFO - use_data_extraction - Action movies successfully scraped!
+2025-10-24 22:39:43,900 - INFO - data_extraction - Loading page 1: https://www.imdb.com/es-es/list/ls096388064/
+2025-10-24 22:40:03,022 - INFO - data_extraction - Page 1: 250 movies scraped
+2025-10-24 22:40:03,022 - INFO - data_extraction - Loading page 2: https://www.imdb.com/es-es/list/ls096388064/?page=2
+2025-10-24 22:40:19,903 - INFO - data_extraction - Page 2: 232 movies scraped
+2025-10-24 22:40:22,011 - INFO - data_extraction - Saved 482 movies to data/raw/Family_movies.csv
+2025-10-24 22:40:22,011 - INFO - use_data_extraction - Family movies successfully scraped!
+2025-10-24 22:40:22,976 - INFO - data_extraction - Loading page 1: https://www.imdb.com/list/ls054945956/
+2025-10-24 22:40:43,460 - INFO - data_extraction - Page 1: 250 movies scraped
+2025-10-24 22:40:43,460 - INFO - data_extraction - Loading page 2: https://www.imdb.com/list/ls054945956/?page=2
+2025-10-24 22:41:01,546 - INFO - data_extraction - Page 2: 250 movies scraped
+2025-10-24 22:41:01,546 - INFO - data_extraction - Loading page 3: https://www.imdb.com/list/ls054945956/?page=3
+2025-10-24 22:41:20,031 - INFO - data_extraction - Page 3: 250 movies scraped
+2025-10-24 22:41:20,031 - INFO - data_extraction - Loading page 4: https://www.imdb.com/list/ls054945956/?page=4
+2025-10-24 22:41:37,505 - INFO - data_extraction - Page 4: 250 movies scraped
+2025-10-24 22:41:37,505 - INFO - data_extraction - Loading page 5: https://www.imdb.com/list/ls054945956/?page=5
+2025-10-24 22:41:55,118 - INFO - data_extraction - Page 5: 250 movies scraped
+2025-10-24 22:41:55,119 - INFO - data_extraction - Loading page 6: https://www.imdb.com/list/ls054945956/?page=6
+2025-10-24 22:42:04,444 - INFO - data_extraction - Page 6: 85 movies scraped
+2025-10-24 22:42:06,573 - INFO - data_extraction - Saved 1335 movies to data/raw/Sport_movies.csv
+2025-10-24 22:42:06,573 - INFO - use_data_extraction - Sport movies successfully scraped!
+2025-10-24 23:00:27,042 - INFO - data_extraction - Loading page 1: https://www.imdb.com/list/ls021161997/
+2025-10-24 23:00:47,827 - INFO - data_extraction - Page 1: 250 movies scraped
+2025-10-24 23:00:47,827 - INFO - data_extraction - Loading page 2: https://www.imdb.com/list/ls021161997/?page=2
+2025-10-24 23:01:05,784 - INFO - data_extraction - Page 2: 250 movies scraped
+2025-10-24 23:01:05,784 - INFO - data_extraction - Loading page 3: https://www.imdb.com/list/ls021161997/?page=3
+2025-10-24 23:01:24,097 - INFO - data_extraction - Page 3: 250 movies scraped
+2025-10-24 23:01:24,097 - INFO - data_extraction - Loading page 4: https://www.imdb.com/list/ls021161997/?page=4
+2025-10-24 23:01:42,439 - INFO - data_extraction - Page 4: 250 movies scraped
+2025-10-24 23:01:44,582 - INFO - data_extraction - Saved 1000 movies to data/raw/Horror_movies.csv
+2025-10-24 23:01:44,582 - INFO - use_data_extraction - Horror movies successfully scraped!
+2025-10-24 23:01:45,550 - INFO - data_extraction - Loading page 1: https://www.imdb.com/list/ls070233852/
+2025-10-24 23:02:04,464 - INFO - data_extraction - Page 1: 250 movies scraped
+2025-10-24 23:02:04,464 - INFO - data_extraction - Loading page 2: https://www.imdb.com/list/ls070233852/?page=2
+2025-10-24 23:02:22,357 - INFO - data_extraction - Page 2: 250 movies scraped
+2025-10-24 23:02:22,357 - INFO - data_extraction - Loading page 3: https://www.imdb.com/list/ls070233852/?page=3
+2025-10-24 23:02:40,535 - INFO - data_extraction - Page 3: 250 movies scraped
+2025-10-24 23:02:40,535 - INFO - data_extraction - Loading page 4: https://www.imdb.com/list/ls070233852/?page=4
+2025-10-24 23:02:48,258 - INFO - data_extraction - Page 4: 23 movies scraped
+2025-10-24 23:02:50,352 - INFO - data_extraction - Saved 773 movies to data/raw/Action_movies.csv
+2025-10-24 23:02:50,352 - INFO - use_data_extraction - Action movies successfully scraped!
+2025-10-24 23:02:51,331 - INFO - data_extraction - Loading page 1: https://www.imdb.com/es-es/list/ls096388064/
+2025-10-24 23:03:11,365 - INFO - data_extraction - Page 1: 250 movies scraped
+2025-10-24 23:03:11,365 - INFO - data_extraction - Loading page 2: https://www.imdb.com/es-es/list/ls096388064/?page=2
+2025-10-24 23:03:28,188 - INFO - data_extraction - Page 2: 232 movies scraped
+2025-10-24 23:03:30,282 - INFO - data_extraction - Saved 482 movies to data/raw/Family_movies.csv
+2025-10-24 23:03:30,283 - INFO - use_data_extraction - Family movies successfully scraped!
+2025-10-24 23:03:31,258 - INFO - data_extraction - Loading page 1: https://www.imdb.com/list/ls054945956/
+2025-10-24 23:03:51,256 - INFO - data_extraction - Page 1: 250 movies scraped
+2025-10-24 23:03:51,256 - INFO - data_extraction - Loading page 2: https://www.imdb.com/list/ls054945956/?page=2
+2025-10-24 23:04:09,247 - INFO - data_extraction - Page 2: 250 movies scraped
+2025-10-24 23:04:09,247 - INFO - data_extraction - Loading page 3: https://www.imdb.com/list/ls054945956/?page=3
+2025-10-24 23:04:27,796 - INFO - data_extraction - Page 3: 250 movies scraped
+2025-10-24 23:04:27,796 - INFO - data_extraction - Loading page 4: https://www.imdb.com/list/ls054945956/?page=4
+2025-10-24 23:04:45,079 - INFO - data_extraction - Page 4: 250 movies scraped
+2025-10-24 23:04:45,079 - INFO - data_extraction - Loading page 5: https://www.imdb.com/list/ls054945956/?page=5
+2025-10-24 23:05:02,291 - INFO - data_extraction - Page 5: 250 movies scraped
+2025-10-24 23:05:02,291 - INFO - data_extraction - Loading page 6: https://www.imdb.com/list/ls054945956/?page=6
+2025-10-24 23:05:11,761 - INFO - data_extraction - Page 6: 85 movies scraped
+2025-10-24 23:05:13,875 - INFO - data_extraction - Saved 1335 movies to data/raw/Sport_movies.csv
+2025-10-24 23:05:13,875 - INFO - use_data_extraction - Sport movies successfully scraped!

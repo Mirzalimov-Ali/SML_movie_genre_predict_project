@@ -1,0 +1,49 @@
+2025-10-24 22:44:31,153 - INFO - data_loader - Loaded file: data/raw\Action_movies.csv
+2025-10-24 22:44:31,155 - INFO - data_loader - Loaded file: data/raw\Family_movies.csv
+2025-10-24 22:44:31,159 - INFO - data_loader - Loaded file: data/raw\Horror_movies.csv
+2025-10-24 22:44:31,164 - INFO - data_loader - Loaded file: data/raw\Sport_movies.csv
+2025-10-24 22:44:31,166 - INFO - data_loader - Data merged successfully. Shape: (3590, 11)
+2025-10-24 22:44:31,180 - INFO - data_loader - Merged data saved to data/raw\merged_dataset.csv
+2025-10-24 22:44:31,180 - INFO - use_data_loader - datasets are merged
+2025-10-24 23:05:31,141 - INFO - data_loader - Loaded file: data/raw\Action_movies.csv
+2025-10-24 23:05:31,151 - INFO - data_loader - Loaded file: data/raw\Family_movies.csv
+2025-10-24 23:05:31,155 - INFO - data_loader - Loaded file: data/raw\Horror_movies.csv
+2025-10-24 23:05:31,170 - INFO - data_loader - Loaded file: data/raw\Sport_movies.csv
+2025-10-24 23:05:31,170 - INFO - data_loader - Data merged successfully. Shape: (3590, 11)
+2025-10-24 23:05:31,184 - INFO - data_loader - Merged data saved to data/raw\merged_dataset.csv
+2025-10-24 23:05:31,184 - INFO - use_data_loader - datasets are merged
+2025-10-25 01:13:49,717 - INFO - data_loader - Loaded file: data/raw\Action_movies.csv
+2025-10-25 01:13:49,719 - INFO - data_loader - Loaded file: data/raw\Family_movies.csv
+2025-10-25 01:13:49,724 - INFO - data_loader - Loaded file: data/raw\Horror_movies.csv
+2025-10-25 01:13:49,729 - INFO - data_loader - Loaded file: data/raw\Sport_movies.csv
+2025-10-25 01:13:49,731 - INFO - data_loader - Data merged successfully. Shape: (3590, 11)
+2025-10-25 01:13:49,746 - INFO - data_loader - Merged data saved to data/raw\merged_dataset.csv
+2025-10-25 01:13:49,746 - INFO - use_data_loader - datasets are merged
+2025-10-25 01:18:14,220 - INFO - data_loader - Loaded file: data/raw\Action_movies.csv
+2025-10-25 01:18:14,224 - INFO - data_loader - Loaded file: data/raw\Family_movies.csv
+2025-10-25 01:18:14,228 - INFO - data_loader - Loaded file: data/raw\Sport_movies.csv
+2025-10-25 01:18:14,233 - INFO - data_loader - Loaded file: data/raw\Horror_movies.csv
+2025-10-25 01:18:14,233 - INFO - data_loader - Data merged successfully. Shape: (3590, 11)
+2025-10-25 01:18:14,248 - INFO - data_loader - Merged data saved to data/raw\merged_dataset.csv
+2025-10-25 01:18:14,248 - INFO - use_data_loader - datasets are merged
+2025-10-25 01:18:20,260 - INFO - data_loader - Loaded file: data/raw\Action_movies.csv
+2025-10-25 01:18:20,262 - INFO - data_loader - Loaded file: data/raw\Family_movies.csv
+2025-10-25 01:18:20,267 - INFO - data_loader - Loaded file: data/raw\Sport_movies.csv
+2025-10-25 01:18:20,271 - INFO - data_loader - Loaded file: data/raw\Horror_movies.csv
+2025-10-25 01:18:20,272 - INFO - data_loader - Data merged successfully. Shape: (3590, 11)
+2025-10-25 01:18:20,285 - INFO - data_loader - Merged data saved to data/raw\merged_dataset.csv
+2025-10-25 01:18:20,285 - INFO - use_data_loader - datasets are merged
+2025-10-25 16:03:57,098 - INFO - data_loader - Loaded file: data/raw\Action_movies.csv
+2025-10-25 16:03:57,109 - INFO - data_loader - Loaded file: data/raw\Family_movies.csv
+2025-10-25 16:03:57,123 - INFO - data_loader - Loaded file: data/raw\Sport_movies.csv
+2025-10-25 16:03:57,136 - INFO - data_loader - Loaded file: data/raw\Horror_movies.csv
+2025-10-25 16:03:57,137 - INFO - data_loader - Data merged successfully. Shape: (3590, 11)
+2025-10-25 16:03:57,155 - INFO - data_loader - Merged data saved to data/raw\merged_dataset.csv
+2025-10-25 16:03:57,156 - INFO - use_data_loader - datasets are merged
+2025-10-25 17:10:00,530 - INFO - data_loader - Loaded file: data/raw\Action_movies.csv
+2025-10-25 17:10:00,533 - INFO - data_loader - Loaded file: data/raw\Family_movies.csv
+2025-10-25 17:10:00,539 - INFO - data_loader - Loaded file: data/raw\Sport_movies.csv
+2025-10-25 17:10:00,542 - INFO - data_loader - Loaded file: data/raw\Horror_movies.csv
+2025-10-25 17:10:00,542 - INFO - data_loader - Data merged successfully. Shape: (3590, 11)
+2025-10-25 17:10:00,557 - INFO - data_loader - Merged data saved to data/raw\merged_dataset.csv
+2025-10-25 17:10:00,557 - INFO - use_data_loader - datasets are merged
